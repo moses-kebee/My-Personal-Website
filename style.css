@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #72281f;
 }
 header {
     background-color: #0f1a25;
@@ -55,12 +55,10 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 12px;
+    border-radius: 1px;
     padding: 2rem;
-    margin-bottom: 2rem;
-    color: #ffffff;
-    margin-bottom: 2.5rem;
-    padding: 2rem;
+    margin-bottom: 1rem;
+
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     transition: transform 0.2s, box-shadow;
@@ -131,7 +129,7 @@ section img {
     text-decoration: underline;
 }
 #contact a {
-    color: #2c3e50;
+    color: #f11a1a;
     text-decoration: none;
 }
 #contact a:hover {
@@ -208,4 +206,11 @@ header a:hover {
 }
 #about img {
     border-radius: 12px;
+}
+li {
+    color: rgb(13, 247, 255);
+}
+p {
+    color: rgb(13, 247, 255);
+    size: bold;
 }
