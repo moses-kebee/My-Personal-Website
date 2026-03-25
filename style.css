@@ -141,3 +141,12 @@ header a:hover {
     background-color: #1a252f;
     text-decoration: none;
 }
+.section {
+    display: none;
+}
+.section {
+    display: block;
+}
+#about {
+    display: block;
+}
