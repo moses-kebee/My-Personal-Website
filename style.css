@@ -48,17 +48,39 @@ main {
     padding: 0 1rem;
 }
 section {
-    background-color: white;
+    background-color: rgb(148, 145, 145);
     margin-bottom: 2rem;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow;
+}
+section:hover {
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+#about {
+    background-color: #ffffff;
+    border-left: 5px solid #2c3e50;
+}
+#skills {
+    background-color: #f8f9fa;
+    border-left: 5px solid #3498db;
+}
+#projects {
+    background-color: #ffffff;
+    border-left: 5px solid #3498db;
+}
+#contact {
+    background-color: #f8f9fa;
+    border-left: 5px solid #e74c3c;
+
 }
 section h2 {
     color: #2c3e50;
     border-bottom: 3px solid #2c3e50;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
 }
 section img {
     display: block;
@@ -149,4 +171,18 @@ header a:hover {
 }
 #about {
     display: block;
+}
+#about h2 {
+    border-bottom-color: #2c3e50;
+}
+#skills h2 {
+    border-bottom-color: #1abc9c;
+}
+
+#projects h2 {
+    border-bottom-color: #3498db;
+}
+
+#contact h2 {
+    border-bottom-color: #e74c3c;
 }
