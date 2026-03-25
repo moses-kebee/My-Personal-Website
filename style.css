@@ -10,29 +10,31 @@ body {
     background-color: #f4f4f4;
 }
 header {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #0f1a25;
+    color: rgb(73, 93, 207);
     text-align: center;
-    padding: 2rem;
+    padding: 5rem;
+    border-radius: 4px;
 }
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 nav {
-    background-color: #34495e;
+    background-color: #1f3246;
     padding: 1rem;
     position: sticky;
     top: 0;
+    border-radius: 2px;
 }
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 nav ul li a {
-    color: white;
+    color: rgb(153, 106, 44);
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
@@ -49,10 +51,10 @@ main {
 }
 section {
     background-color: rgb(148, 145, 145);
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     transition: transform 0.2s, box-shadow;
 }
 section:hover {
