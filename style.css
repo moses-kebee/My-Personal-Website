@@ -199,3 +199,13 @@ header a:hover {
     border-bottom-color: #e74c3c;
     color: #e74c3c;
 }
+#about img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 1rem auto;
+}
+#about img {
+    border-radius: 12px;
+}
